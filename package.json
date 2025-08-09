@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "service-worker-brotli": "^0.1.1"
+  }
+}
