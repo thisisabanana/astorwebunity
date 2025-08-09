@@ -1,2 +1,0 @@
-import "service-worker-brotli";
-
