@@ -22,6 +22,11 @@
       </div>
     </div>
     <div id="unity-fullscreen-button" style="display: none;"></div>
+    <script type="module">
+      import "service-worker-brotli/register.js";
+
+      navigator.serviceWorker.register(new URL("./service-worker.js", import.meta.url), { type: "module" }); // https://github.com/jprendes/service-worker-brotli
+    </script>
     <script>
       const hideFullScreenButton = "";
       const buildUrl = "Build";
