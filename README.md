@@ -1,5 +1,14 @@
 # [astorwebunity](https://thisisabanana.github.io/astorwebunity/)
 
+### build times
+Linking build.js (wasm) at the end takes the most time, up until then it takes < 5 min
+
+Build Settings (Runtime Speed LTO) + Player Settings (Faster runtime) = 20 min <br>
+Build Settings (Runtime Speed) + Player Settings (Faster runtime) = 10 min <br>
+Build Settings (Runtime Speed) + Player Settings (Faster, smaller builds) = 6 min
+
+<br>
+
 ### What to check if emission material doesn't work in Unity URP
 check if **"HDR"** on Assets > Settings > URP-Renderer.asset is **ENABLED!!**
 
